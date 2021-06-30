@@ -1,0 +1,22 @@
+name: firebase_authentication
+description: Flutter Firebase Authentication Using Anonymous, Phone, EmailPassword, Social
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.3.0
+  firebase_auth: ^1.4.1
+  flutter_signin_button: ^2.0.0
+  google_sign_in: ^5.0.4
+  flutter_facebook_auth: ^3.5.0
+  twitter_login: ^4.0.1
+  # github_sign_in: ^0.0.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
